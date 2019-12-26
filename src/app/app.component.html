@@ -26,7 +26,8 @@
   <div class="row" style="display: flex; justify-content: space-between;">
     <div class="col-xs-12 col-sm-6 example-col">
       <p>Slider (value = {{sliderValue}})</p>
-      <kendo-slider [min]="min" [max]="max" [smallStep]="smallStep" [(ngModel)]="sliderValue"></kendo-slider>
+      <kendo-slider [vertical]="false" [min]="min" [max]="max" [smallStep]="smallStep" [showButtons]="true"
+        [incrementTitle]="'增加'" [decrementTitle]="'減少'" [(ngModel)]="sliderValue"></kendo-slider>
     </div>
     <div class="col-xs-12 col-sm-6 example-col">
       <p>Switch</p>
