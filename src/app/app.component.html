@@ -19,7 +19,8 @@
     </div>
     <div class="col-xs-12 col-sm-6 example-col">
       <p>NumericTextBox</p>
-      <kendo-numerictextbox [(ngModel)]="numericValue" [step]="5"></kendo-numerictextbox>
+      <kendo-numerictextbox [(ngModel)]="numericValue" [step]="5" [format]="'n'" [spinners]="true">
+      </kendo-numerictextbox>
     </div>
   </div>
   <div class="row" style="display: flex; justify-content: space-between;">
